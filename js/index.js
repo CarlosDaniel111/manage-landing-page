@@ -8,11 +8,11 @@ navBar.addEventListener("click", () => {
     fade.classList.toggle("fade");
     if (active) {
         active = false;
-        document.getElementById("header__barra").src = "/images/icon-hamburger.svg";
+        document.getElementById("header__barra").src = "images/icon-hamburger.svg";
     }
     else {
         active = true;
-        document.getElementById("header__barra").src = "/images/icon-close.svg";
+        document.getElementById("header__barra").src = "images/icon-close.svg";
     }
 
 })
