@@ -161,7 +161,7 @@ input{
     font-weight: 500;
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 1024px) { 
     .boton--responsive{
         display: unset;
     }
