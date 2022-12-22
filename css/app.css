@@ -289,6 +289,9 @@ input{
 }
 
 /* Testimoniales */
+.testimoniales{
+    overflow: hidden;
+}
 .testimoniales__heading{
     color: var(--primarioAzul);
     text-align: center;
@@ -298,7 +301,6 @@ input{
 .testimoniales__listado{
     display: flex;
     transition: transform .4s;
-    overflow: hidden;
 }
 
 .testimonial{
