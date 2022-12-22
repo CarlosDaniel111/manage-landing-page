@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <title>Frontend Mentor | Manage landing page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/normalize.css" />
+  <link rel="stylesheet" href="/css/app.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__contenedor">
+      <div class="header__flex">
+        <div class="header__logo">
+          <img src="images/logo.svg" alt="logo principal manage">
+        </div>
+        <nav class="nav" id="nav">
+          <a href="#" class="nav__enlace">Pricing</a>
+          <a href="#" class="nav__enlace">Product</a>
+          <a href="#" class="nav__enlace">About Us</a>
+          <a href="#" class="nav__enlace">Careers</a>
+          <a href="#" class="nav__enlace">Community</a>
+        </nav>
+        <div class="header__menu" id="header__menu">
+          <img src="images/icon-hamburger.svg" alt="icon hamburger" id="header__barra">
+        </div>
+        <div class="boton boton--responsive">
+          <a href="#" class="boton__enlace">Get Started</a>
+        </div>
+      </div>
+    </div>
+    <div id="fade"></div>
+  </header> <!-- HEADER -->
+
+  <main class="principal">
+    <div class="principal__contenedor">
+      <div class="principal__grid">
+        <div class="principal__texto">
+          <h1 class="principal__heading">Bring everyone together to build better products.</h1>
+          <p class="principal__parrafo">
+            Manage makes it simple for software teams
+            to plan day-to-day tasks while keeping the larger team goals in view.
+          </p>
+          <div class="boton">
+            <a href="#" class="boton__enlace">Get Started</a>
+          </div>
+        </div>
+
+        <div class="principal__imagen">
+          <img src="images/illustration-intro.svg" alt="imagen principal">
+        </div>
+      </div>
+    </div>
+  </main> <!-- SECCION PRINCIPAL -->
+
+  <section class="about">
+    <div class="about__contenedor">
+      <div class="about__grid">
+        <div class="about__texto">
+          <h2 class="about__heading">What’s different about Manage?</h2>
+          <p class="about__parrafo">
+            Manage provides all the functionality
+            your team needs, without the complexity. Our software is tailor-made for
+            modern digital product teams.
+          </p>
+        </div>
+        <div class="about__listado">
+          <div class="card">
+            <div class="card__title">
+              <span class="card__number">01</span>
+              <p class="card__titulo">
+                Track company-wide progress
+              </p>
+            </div>
+            <p class="card__parrafo">
+              See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the
+              milestone level all the way done to the smallest of details. Never lose
+              sight of the bigger picture again.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card__title">
+              <span class="card__number">02</span>
+              <p class="card__titulo">
+                Advanced built-in reports
+              </p>
+            </div>
+            <p class="card__parrafo">
+              Set internal delivery estimates and track progress toward company goals. Our customisable
+              dashboard helps you build out the reports you need to keep key stakeholders
+              informed.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="card__title">
+              <span class="card__number">03</span>
+              <p class="card__titulo">
+                Everything you need in one place
+              </p>
+            </div>
+            <p class="card__parrafo">
+              Stop jumping from one service to another to communicate, store files, track tasks and share documents.
+              Manage offers an all-in-one team productivity solution.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!-- SECCION ABOUT -->
+
+  <section class="testimoniales">
+    <div class="testimoniales__contenedor">
+      <h2 class="testimoniales__heading">What they’ve said</h2>
+
+      <div class="testimoniales__listado" id="testimoniales__listado">
+        <div class="testimonial">
+          <div class="testimonial__avatar">
+            <img src="images/avatar-anisha.png" class="testimonial__imagen" alt="avatar anisha">
+          </div>
+          <h4 class="testimonial__nombre">Anisha Li</h4>
+          <p class="testimonial__parrafo">
+            “Manage has supercharged our team’s workflow. The ability to
+            maintain visibility on larger milestones at all times keeps everyone
+            motivated.”
+          </p>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial__avatar">
+            <img src="images/avatar-ali.png" class="testimonial__imagen" alt="avatar ali">
+          </div>
+          <h4 class="testimonial__nombre">Ali Bravo</h4>
+          <p class="testimonial__parrafo">
+            “We have been able to cancel so many other subscriptions since using Manage. There is no more cross-channel
+            confusion and everyone is much more focused.”
+          </p>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial__avatar">
+            <img src="images/avatar-richard.png" class="testimonial__imagen" alt="avatar richard">
+          </div>
+          <h4 class="testimonial__nombre">Richard Watts</h4>
+          <p class="testimonial__parrafo">
+            “Manage allows us to provide structure and process. It keeps us organized and focused. I can’t stop
+            recommending them to everyone I talk to!”
+          </p>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial__avatar">
+            <img src="images/avatar-shanai.png" class="testimonial__imagen" alt="avatar shanai">
+          </div>
+          <h4 class="testimonial__nombre">Shanai Gough</h4>
+          <p class="testimonial__parrafo">
+            “Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole
+            team in-sync without being intrusive.”
+          </p>
+        </div>
+
+      </div>
+
+      <div class="testimoniales__slider">
+        <div class="testimoniales__punto testimoniales__punto--relleno"></div>
+        <div class="testimoniales__punto"></div>
+        <div class="testimoniales__punto"></div>
+        <div class="testimoniales__punto"></div>
+      </div>
+
+      <div class="testimoniales__boton">
+        <div class="boton">
+          <a href="#" class="boton__enlace">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section> <!-- SECCION TESTIMONIALES -->
+
+  <section class="anuncio">
+    <div class="anuncio__contenedor">
+      <div class="anuncio__flex">
+        <h2 class="anuncio__titulo">
+          Simplify how your team works today.
+        </h2>
+        <div class="boton boton--inverso">
+          <a href="#" class="boton__enlace boton__enlace--inverso">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section> <!-- SECCION ANUNCIO -->
+
+
+  <footer class="footer">
+    <div class="footer__contenedor">
+      <div class="footer__grid">
+        <div class="footer__logos">
+          <div class="footer__redes">
+            <img src="images/icon-facebook.svg" class="footer__red" alt="icono facebook">
+            <img src="images/icon-youtube.svg" class="footer__red" alt="icono youtube">
+            <img src="images/icon-twitter.svg" class="footer__red" alt="icono twitter">
+            <img src="images/icon-pinterest.svg" class="footer__red" alt="icono pinterest">
+            <img src="images/icon-instagram.svg" class="footer__red" alt="icono instagram">
+          </div>
+          <div class="footer__logo">
+            <img src="images/logo2.svg" alt="icono manage footer">
+          </div>
+        </div>
+        <div class="footer__enlaces">
+          <div class="footer__lista">
+            <a href="#" class="footer__enlace">Home</a>
+            <a href="#" class="footer__enlace">Pricing</a>
+            <a href="#" class="footer__enlace">Products</a>
+            <a href="#" class="footer__enlace">About Us</a>
+          </div>
+          <div class="footer__lista">
+            <a href="#" class="footer__enlace">Careers</a>
+            <a href="#" class="footer__enlace">Community</a>
+            <a href="#" class="footer__enlace">Privacy Policy</a>
+          </div>
+        </div>
+        <div class="footer__formulario">
+          <form class="footer__form" id="formulario">
+            <input type="text" class="footer__input" placeholder="Updates in your inbox...">
+            <input type="submit" class="boton boton--form" value="GO">
+          </form>
+          <p class="footer__error" id="footer__error"></p>
+        </div>
+      </div>
+      <p class="footer__copyright">Copyright 2020. All Rights Reserved</p>
+    </div>
+  </footer> <!-- FOOTER -->
+
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" class="attribution__enlace" target="_blank">Frontend
+      Mentor</a>. Coded by <a class="attribution__enlace" href="https://github.com/CarlosDaniel111"
+      target="_blank">Carlos Beltran</a>.
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
